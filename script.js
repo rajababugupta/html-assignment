@@ -1,5 +1,5 @@
 // Paste your Grok API key here
-const API_KEY = "YOUR_GROK_API_KEY_HERE";
+const API_KEY = "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";
 
 async function sendMessage() {
 

@@ -2,20 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>AI Study Assistant</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Welcome to My Restaurant — an exquisite dining experience with fresh, locally sourced ingredients." />
+  <title>My Restaurant — Fine Dining</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <h1>🎓 AI Study Assistant</h1>
+  <!-- Navbar -->
+  <header>
+    <div class="navbar">
+      <a href="index.html" class="logo">My<span>Restaurant</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-  <div id="chatBox"></div>
+  <!-- Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="subtitle">Welcome to</p>
+        <h1>My <em>Restaurant</em></h1>
+        <p class="tagline">An unforgettable dining experience crafted with passion, tradition, and the finest ingredients.</p>
+        <a href="menu.html" class="btn">Explore the Menu</a>
+      </div>
+    </section>
 
-  <div id="inputArea">
-    <input type="text" id="userInput" placeholder="Ask a question..." />
-    <button onclick="sendMessage()">Send</button>
-  </div>
+    <!-- Info Cards -->
+    <section class="info-section">
+      <div class="info-card fade-in">
+        <div class="icon">🕐</div>
+        <h3>Opening Hours</h3>
+        <p>Mon – Sat: 10 AM – 12 PM</p>
+        <p>Sunday: Closed</p>
+      </div>
+      <div class="info-card fade-in-delay">
+        <div class="icon">📍</div>
+        <h3>Location</h3>
+        <p>123 Gourmet Street</p>
+        <p>Food City, FC 45678</p>
+      </div>
+      <div class="info-card fade-in-delay">
+        <div class="icon">📞</div>
+        <h3>Reservations</h3>
+        <p>+1 (555) 123-4567</p>
+        <p>info@myrestaurant.com</p>
+      </div>
+    </section>
+  </main>
 
-  <script src="script.js"></script>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-brand">MyRestaurant</div>
+    <p>&copy; 2026 My Restaurant. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
